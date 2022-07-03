@@ -1,0 +1,84 @@
+# default.custom.yaml
+# save it to: 
+#   ~/.config/ibus/rime  (linux)
+#   ~/Library/Rime       (macos)
+#   %APPDATA%\Rime       (windows)
+
+patch:
+  schema_list:
+    - schema: luna_pinyin          # 朙月拼音
+  "menu/page_size": 5
+  "app_options/alacritty":
+    ascii_mode: true
+  "switches/@0/reset": 1
+  "switcher/hotkeys":
+    - "Control+F4"
+  # key_binder:
+  #   bindings:
+  #     - accept: "Control+p"
+  #       send: "Up"
+  #       when: "composing"
+  #     - accept: "Control+n"
+  #       send: "Down"
+  #       when: "composing"
+  #     - accept: "Control+b"
+  #       send: "Left"
+  #       when: "composing"
+  #     - accept: "Control+f"
+  #       send: "Right"
+  #       when: "composing"
+  #     - accept: "Alt+b"
+  #       send: "Shift+Left"
+  #       when: "composing"
+  #     - accept: "Alt+f"
+  #       send: "Shift+Right"
+  #       when: "composing"
+  #     - accept: "Control+a"
+  #       send: "Home"
+  #       when: "composing"
+  #     - accept: "Control+e"
+  #       send: "End"
+  #       when: "composing"
+  #     - accept: "Control+d"
+  #       send: "Delete"
+  #       when: "composing"
+  #     - accept: "Control+h"
+  #       send: "BackSpace"
+  #       when: "composing"
+  #     - accept: "Alt+h"
+  #       send: "Shift+BackSpace"
+  #       when: "composing"
+  #     - accept: "Control+g"
+  #       send: "Escape"
+  #       when: "composing"
+  #     - accept: "Control+bracketleft"
+  #       send: "Escape"
+  #       when: "composing"
+  #     - accept: "Alt+v"
+  #       send: "Page_Up"
+  #       when: "composing"
+  #     - accept: "Control+v"
+  #       send: "Page_Down"
+  #       when: "composing"
+  #     - accept: "Tab"
+  #       send: "Down"
+  #       when: "has_menu"
+  #     - accept: "ISO_Left_Tab"
+  #       send: "Up"
+  #       when: "has_menu"
+  #     # 鬼知道为什么这个也用不了！
+  #     - accept: "Shift+Tab"
+  #       send: "Up"
+  #       when: "has_menu"
+  #     - accept: "minus"
+  #       send: "Page_Up"
+  #       when: "has_menu"
+  #     - accept: "equal"
+  #       send: "Page_Down"
+  #       when: "has_menu"
+  #     - accept: "bracketleft"
+  #       send: "Page_Up"
+  #       when: "has_menu"
+  #     - accept: "bracketright"
+  #       send: "Page_Down"
+  #       when: "has_menu"
