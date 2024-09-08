@@ -23,6 +23,10 @@ windows_compatible_mode_switch:
     - { when: always, accept: Control+Shift+f, toggle: zh_simp_s2t }
     - { when: always, accept: Control+Shift+F, toggle: zh_simp_s2t }
 
+ascii_punct_switch:
+  __append:
+    - { when: always, accept: Control+period, toggle: ascii_punct }
+
 kp_enter_is_return:
   __append:
     - { when: has_menu, accept: KP_Enter, send: Return }
